@@ -88,7 +88,7 @@ export default function(params) {
      vec4 gb0 = texture2D(u_gbuffers[0], v_uv);
      vec4 gb1 = texture2D(u_gbuffers[1], v_uv);
      vec4 gb2 = texture2D(u_gbuffers[2], v_uv);
-     vec4 gb3 = texture2D(u_gbuffers[3], v_uv);
+     //vec4 gb3 = texture2D(u_gbuffers[3], v_uv);
 
     //gl_FragColor = vec4(v_uv, 0.0, 1.0);
     vec3 albedo = gb2.rgb;//texture2D(u_colmap, v_uv).rgb;
