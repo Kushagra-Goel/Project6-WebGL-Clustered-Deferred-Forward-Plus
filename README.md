@@ -66,8 +66,10 @@ If, instead, one calculates a halfway vector between the viewer and light-source
 
 <a name = "analysis"/>  
 
- ## Performance Analysis  
-<img src="img/Plot.jpg" alt="plot" width="600"/>   
+ ## Performance Analysis    
+ 
+<img src="img/Plot.jpg" alt="plot" width="600"/>    
+
 The values were calculated for a reduced resolution render using the frames per second counter in the project. As we expected clustered shading is vastly superior to forward shading and to an extent superior to forward+ shading too. Our optimization of using less than 4 g_buffers is also potentially helping clustered be faster than others.
 
 
